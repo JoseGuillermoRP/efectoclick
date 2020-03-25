@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.menu{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #000000;
+}
+.menu h1{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.nav a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 13px;
+}
+.nav{
+    margin-top: 5px;
+
+}
+.portada{
+    width: 100%;
+    height:100vh;
+    display: flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction: column;
+}
+#portada h1{
+    text-align: center;
+   transform:  translateY(233px);
+    font-size: 70px;
+    
+    
+}
+#portada img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+#imagen1{
+background: #39444D;
+flex-direction: column;
+align-items: center;
+}
+#imagen1 h3{
+    margin-top: 30px;
+    color:#ffffff;
+    font-size: 40px;
+
+}
+#imagen1 img{
+    margin-top: 30px;
+    width: 80%;
+    height: 500px;
+}
+#imagen2{
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: space-around;   
+}
+#imagen2 .column1{
+    width: 50%;
+    background-color: #39444D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+#imagen2 .column1 h3{
+    font-size: 40px;
+  
+    color: #ffffff;
+}
+.column1 img{
+    width: 250px;
+    margin-top: 30px;
+}
+#imagen2 .column2{
+    width: 50%;
+    background-color: #39444D;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.column2 img{
+   height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}
+.column2 h3{
+    position: absolute;
+    z-index: 400;
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 47px;
+}
+#imagen3{
+background: #2D3E50;
+flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#imagen3 h3{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+#imagen3 img{
+    margin-top: 20px;
+    width: 900px;   
+}
+#imagen4{
+    display: flex;
+    justify-content: center;
+background-color:  #39444D;
+}
+#imagen4 img{
+    position: relative;
+   width: 1302px;
+   height: 548px; 
+}
+#imagen4 h3{
+    margin-top: 40px;
+    position: absolute;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px ;  
+}
+footer{
+    height: 120px;
+    background-color: black;
+}

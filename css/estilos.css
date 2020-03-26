@@ -155,8 +155,24 @@ background-color:  #39444D;
     margin-top: 50px ;  
 }
 footer{
-    height: 60px;
+    width: 100%;
+    height: 80px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .texto{
+ 
+ color: #ffffff;
+ display: flex;
+}
+footer .redes{
+   margin-top: 10px;
+    color: #ffffff;
+    display: flex;
+    font-size: 20px;
 }
 @media screen and ( max-width: 900px){
 .contenedor-menu{
@@ -255,7 +271,7 @@ height: auto;
     height:100%;
 }
 footer{
-    height: 50px;
+    height: 80px;
 }
 }
 @media screen and ( max-width: 400px){

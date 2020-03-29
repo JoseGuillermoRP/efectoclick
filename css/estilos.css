@@ -319,6 +319,20 @@ height: auto;
 footer{
     height: 80px;
 }
+.portada-web img{
+width: 400px;
+}
+.contenedor-web img{
+    width: 400px;
+}
+.texto-web h2,h3{
+    font-size: 30px;
+   
+}
+.texto-web p{
+    width: 490px;
+    text-align: center;
+}
 }
 @media screen and ( max-width: 400px){
 
@@ -351,4 +365,18 @@ footer{
         width: 350px;
         margin-top:0px;
     }
+    .portada-web img{
+        width: 300px;
+        }
+        .contenedor-web img{
+            width: 300px;
+        }
+        .texto-web h2,h3{
+            font-size: 20px;
+           
+        }
+        .texto-web p{
+            width: 290px;
+            text-align: center;
+        }
 }

@@ -55,14 +55,20 @@ header h1{
     background-color:  #39444D;
     margin-bottom: 50px;
 }
-.texto-web h2{
-    font-size: 35px;
-    color: #ffffff;
+.texto-web h2,h3{
+    font-size: 40px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+.texto-web p{
+    width: 900px;
+    text-align: center;
+}
+.texto-web h2{
+    color: #ffffff;
 }
  .portada-web img{
-    width: 800px;
+    width: 900px;
 
 }
 .portada img{
@@ -70,6 +76,23 @@ header h1{
     height: 100vh;
     object-fit: cover;
     overflow: hidden;
+}
+.contenedor-web{
+    margin-top: 30px;
+    width: 100%;
+    height:auto;
+    display: flex;
+   justify-content: center;
+   align-items:center;
+    flex-direction: column;
+    margin-bottom: 20px;
+   
+}
+.contenedor-web img{
+    margin-top: 20px;
+    width: 900px;
+    overflow: hidden;
+    object-fit: cover;
 }
 #imagen1{
 background: #39444D;

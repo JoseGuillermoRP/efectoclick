@@ -20,3 +20,18 @@ Vue.component('cabecera', {
 </header>
     `
 });
+
+Vue.component('piedepagina', {
+    template: //html
+    `
+    <footer>
+        <div class="texto"><p>copyright&copy; : Jose Rojas</p></div>
+        <div class="redes">
+            <div class="icon-instagram"></div>
+            <div class="icon-facebook"></div>
+            <div class="icon-linkedin"></div>
+        </div>
+    </footer>
+    `
+});
+

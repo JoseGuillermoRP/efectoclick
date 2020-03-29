@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="font/fontello.css">
     <title>EfectoClick</title>
+          <!--Vue cdn-->
+          <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+          <script src="js/cabecera.js"></script>
 </head>
 <body>
-    <header class="">
+    <div id="app">
+
+        <cabecera></cabecera>
+<!--     <header class="">
         <div class="contenedor-menu">
        
                 <h1>EfectoClick</h1>
@@ -24,7 +30,7 @@
               
         </div>
        
-    </header>
+    </header> -->
     <section class="portada">
         
         <img loading="lazy" src="optimizadas/Portada.png" alt="">
@@ -61,6 +67,11 @@
             <div class="icon-linkedin"></div>
         </div>
     </footer>
+    <script>
+        new Vue({
+            el:'#app'
+        })
+    </script>
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="

@@ -7,9 +7,10 @@
 header{
     width: 100%;
     display: flex;
-  
+    position: fixed;
     height: 30px;
     background-color: black;
+    z-index: 3000;
 }
 .contenedor-menu{
     width: 98%;

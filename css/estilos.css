@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }
 header{
     width: 100%;
@@ -32,8 +36,10 @@ header .nav a{
     margin-left: 15px;
 }
 header h1{
+    
     color: #ffffff;
-    font-size: 25px;
+    font-size: 20px;
+
 }
 
 .portada{
